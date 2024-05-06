@@ -3,15 +3,15 @@ using Jotunn.Entities;
 using Jotunn.Managers;
 using Jotunn.Utils;
 
-namespace JotunnModStub
+namespace MapDrawing
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
-    internal class JotunnModStub : BaseUnityPlugin
+    internal class MapDrawing : BaseUnityPlugin
     {
         public const string PluginGUID = "com.jotunn.jotunnmodstub";
-        public const string PluginName = "JotunnModStub";
+        public const string PluginName = "MapDrawing";
         public const string PluginVersion = "0.0.1";
         
         // Use this class to add your own localization to the game
